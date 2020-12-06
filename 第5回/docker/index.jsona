@@ -1,0 +1,40 @@
+{
+    "title": "Docker初歩",
+    "description": "Docker初歩",
+    "details": {
+        "steps": [{
+                "title": "Step 1 - Dockerを動かしてみてる",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Dockerの仕組みについて",
+                "text": "step2.md"
+            }, {
+                "title": "Step 2 - Docker Composeについて",
+                "text": "step2.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "background.sh",
+            "code": "foreground.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [],
+    "environment": {
+        "showide": true,
+        "ide": "ssh host01 '/opt/start-vscode.sh'",
+        "idePort": 23000,
+        "hideintro": false,
+        "showdashboard": true,
+        "terminals": [{ "name": "Terminal 2", "target": "host01" }],
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
